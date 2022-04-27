@@ -120,8 +120,7 @@ nav .fa {
   }
 
   nav .fa {
-    display: block;
-    color: #fff;
+    display: block;   
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
