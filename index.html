@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="with=device-width, initial-scale=1.0">
+
+  <title>KOYETECH</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <! -------- HEADER ---------->
+
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="Koyetech-logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>           
+            <li><a href="Contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+    </section>
+
+    <! -------- COURSE ---------->
+
+      <section class="course">
+        <h1>KOYETECH SERVICE OFFERINGS</h1>
+       
+        <div class="row">
+          <div class="course-col">
+            <h3>IT Consulting</h3>
+            <p>Koyetech We expertise in staff augmentation which 
+              enables our clients to grow efficiently, over the diverse market expectations.. 
+            </p>
+          </div>
+          <div class="course-col">
+            <h3>Big Data/Analytics</h3>
+            <p>Your data matters! Use your own concrete knowledge to steer your 
+              company in the right direction. Allow Koyetech to help you build the
+              use cases for your big data adaptation!</p>
+          </div>
+          <div class="course-col">
+            <h3>Cloud Applications</h3>
+            <p>Koyetech can launch your business to the stratosphere! We specialize in 
+              Customer Experience Cloud Applications and Integrating with Prebuilt Solutions. 
+              Learn how Koyetech can change your business for the better!</p>
+          </div>
+
+        </div>
+
+      </section>
+
+
+          <! -------- Testimonials ---------->
+
+            <section class="testimonials">
+              <h1>What our clients say.</h1>
+
+              <div class="row">
+                <div class="testimonial-col">
+                  <img src="images/user1.jpg">
+                  <div>
+                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit ametNeque st qui dolorem ipsum quia dolor sit amet</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+                  </div>
+                  </div>
+                  <div class="testimonial-col">
+                    <img src="images/user2.jpg">
+                    <div>
+                      <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit ametNeque st qui dolorem ipsum quia dolor sit amet</p>
+                      <h3>John Hopkins</h3>
+                      <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                    </div>
+                  </div>
+
+              </div>
+            </section>
+
+<! -------- Call to Action ---------->
+
+
+<section class="CTA">
+  <h1>We are the one of the most ethical consultancy<br>
+    Looking for job consultant? <br> Anywhere in the world</h1>
+  <a class="hero-btn" href="#">CONTACT US</a>
+
+</section>
+
+<! -------- FOOTER ---------->
+
+<section class="footer">
+
+<p>Copyright © 2022 Koyetech. All rights reserved.</p>
+
+<div class="icons">
+
+</div>
+
+</section>
+
+
+
+<! ---- Javacscript for Toggle Menu ---- -->
+
+              <script>
+                var navLinks = document.getElementById("navLinks");
+
+                function showMenu() {
+                  navLinks.style.right = "0";
+                }
+
+                function hideMenu() {
+                  navLinks.style.right = "-200px";
+                }
+              </script>
+
+</body>
+
+</html>
